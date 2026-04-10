@@ -77,11 +77,11 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                                  | Expected Result                                | Status |
 | --- | ------------------------------------- | ---------------------------------------------- | ------ |
-| 1   | Type `admin` in the Username field    | Text appears in field                          | [ ]    |
-| 2   | Type `wrongpassword` in Password      | Text appears (as dots)                         | [ ]    |
-| 3   | Click **Sign In**                     | Page reloads                                   | [ ]    |
-| 4   | Look for an error message             | Red alert: **"Invalid username or password."** | [ ]    |
-| 5   | Check you are still on the login page | URL still shows `/?page=login`                 | [ ]    |
+| 1   | Type `admin` in the Username field    | Text appears in field                          | [P]    |
+| 2   | Type `wrongpassword` in Password      | Text appears (as dots)                         | [P]    |
+| 3   | Click **Sign In**                     | Page reloads                                   | [P]    |
+| 4   | Look for an error message             | Red alert: **"Invalid username or password."** | [P]    |
+| 5   | Check you are still on the login page | URL still shows `/?page=login`                 | [P]    |
 
 ---
 
