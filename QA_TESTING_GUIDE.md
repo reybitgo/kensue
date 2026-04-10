@@ -91,9 +91,9 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                                                     | Expected Result                  | Status |
 | --- | -------------------------------------------------------- | -------------------------------- | ------ |
-| 1   | Type anything in the Password field                      | Text appears as dots             | [ ]    |
-| 2   | Click the 👁 eye icon on the right of the password field | Password text becomes visible    | [ ]    |
-| 3   | Click the eye icon again                                 | Password text hides again (dots) | [ ]    |
+| 1   | Type anything in the Password field                      | Text appears as dots             | [P]    |
+| 2   | Click the 👁 eye icon on the right of the password field | Password text becomes visible    | [P]    |
+| 3   | Click the eye icon again                                 | Password text hides again (dots) | [P]    |
 
 ---
 
