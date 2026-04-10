@@ -149,10 +149,10 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                                | Expected Result                                              | Status |
 | --- | ----------------------------------- | ------------------------------------------------------------ | ------ |
-| 1   | In the sidebar, click **Packages**  | Page loads at `/?page=admin_packages`                        | [ ]    |
-| 2   | Check the packages list on the left | **"Starter"** package is listed                              | [ ]    |
-| 3   | Check the Starter package details   | Entry Fee: ₱10,000.00 · Pair Bonus: ₱2,000.00 · Cap: 3 pairs | [ ]    |
-| 4   | Check the form on the right         | Empty **"New Package"** form is visible                      | [ ]    |
+| 1   | In the sidebar, click **Packages**  | Page loads at `/?page=admin_packages`                        | [P]    |
+| 2   | Check the packages list on the left | **"Starter"** package is listed                              | [P]    |
+| 3   | Check the Starter package details   | Entry Fee: ₱10,000.00 · Pair Bonus: ₱2,000.00 · Cap: 3 pairs | [P]    |
+| 4   | Check the form on the right         | Empty **"New Package"** form is visible                      | [P]    |
 
 ---
 
