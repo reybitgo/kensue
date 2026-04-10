@@ -118,13 +118,13 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                             | Expected Result                        | Status |
 | --- | -------------------------------- | -------------------------------------- | ------ |
-| 1   | Go to `http://localhost/kensue/` | Login page shows                       | [ ]    |
-| 2   | Type `admin` in Username         | —                                      | [ ]    |
-| 3   | Type `Admin@1234` in Password    | —                                      | [ ]    |
-| 4   | Click **Sign In**                | Page redirects                         | [ ]    |
-| 5   | Check the URL                    | Shows `/?page=admin`                   | [ ]    |
-| 6   | Check the page title             | Shows **"Admin Dashboard — Kensue"**   | [ ]    |
-| 7   | Check the sidebar                | Shows **"ADMIN PANEL"** below the logo | [ ]    |
+| 1   | Go to `http://localhost/kensue/` | Login page shows                       | [P]    |
+| 2   | Type `admin` in Username         | —                                      | [P]    |
+| 3   | Type `Admin@1234` in Password    | —                                      | [P]    |
+| 4   | Click **Sign In**                | Page redirects                         | [P]    |
+| 5   | Check the URL                    | Shows `/?page=admin`                   | [P]    |
+| 6   | Check the page title             | Shows **"Admin Dashboard — Kensue"**   | [P]    |
+| 7   | Check the sidebar                | Shows **"ADMIN PANEL"** below the logo | [P]    |
 
 ---
 
