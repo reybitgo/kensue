@@ -134,10 +134,10 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                                                                          | Expected Result             | Status |
 | --- | ----------------------------------------------------------------------------- | --------------------------- | ------ |
-| 1   | While logged in as admin, click the ⏻ power icon at the bottom of the sidebar | —                           | [ ]    |
-| 2   | Check the URL                                                                 | Redirects to `/?page=login` | [ ]    |
-| 3   | Try visiting `http://localhost/kensue/?page=admin` directly                   | Redirects back to login     | [ ]    |
-| 4   | Try visiting `http://localhost/kensue/?page=dashboard` directly               | Redirects back to login     | [ ]    |
+| 1   | While logged in as admin, click the ⏻ power icon at the bottom of the sidebar | —                           | [P]    |
+| 2   | Check the URL                                                                 | Redirects to `/?page=login` | [P]    |
+| 3   | Try visiting `http://localhost/kensue/?page=admin` directly                   | Redirects back to login     | [P]    |
+| 4   | Try visiting `http://localhost/kensue/?page=dashboard` directly               | Redirects back to login     | [P]    |
 
 ---
 
