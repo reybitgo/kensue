@@ -1,0 +1,363 @@
+/* ============================================================
+   AUTH.CSS — Login & Register pages
+   ============================================================ */
+
+.auth-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f1728 0%, #1a2744 50%, #0f2040 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle background decoration */
+.auth-page::before {
+  content: '';
+  position: absolute;
+  top: -100px; right: -100px;
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(59,111,240,.12) 0%, transparent 65%);
+  pointer-events: none;
+}
+.auth-page::after {
+  content: '';
+  position: absolute;
+  bottom: -80px; left: -80px;
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(124,58,237,.10) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+/* ── Auth Card ──────────────────────────────────────────────── */
+.auth-card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 24px 64px rgba(0,0,0,.25), 0 4px 16px rgba(0,0,0,.10);
+  width: 100%;
+  max-width: 440px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.auth-card-wide {
+  max-width: 560px;
+}
+
+/* ── Auth Header ────────────────────────────────────────────── */
+.auth-header {
+  background: linear-gradient(135deg, #3b6ff0, #2954cc);
+  padding: 32px 36px 28px;
+  text-align: center;
+  position: relative;
+}
+
+.auth-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  background: rgba(255,255,255,.15);
+  border-radius: 14px;
+  font-size: 26px;
+  margin-bottom: 14px;
+  border: 1px solid rgba(255,255,255,.2);
+}
+
+.auth-header h1 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 4px;
+  letter-spacing: -.4px;
+}
+
+.auth-header p {
+  color: rgba(255,255,255,.7);
+  font-size: 13px;
+}
+
+/* ── Auth Body ──────────────────────────────────────────────── */
+.auth-body {
+  padding: 32px 36px;
+}
+
+@media (max-width: 480px) {
+  .auth-body     { padding: 24px 20px; }
+  .auth-header   { padding: 24px 20px; }
+}
+
+/* ── Form Elements ──────────────────────────────────────────── */
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.form-label .required { color: #e03434; margin-left: 2px; }
+
+.form-control {
+  width: 100%;
+  padding: 11px 14px;
+  background: #f9fafb;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 9px;
+  font-size: 14px;
+  color: #111827;
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.form-control:focus {
+  border-color: #3b6ff0;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(59,111,240,.12);
+}
+
+.form-control::placeholder { color: #9ca3af; }
+
+.form-control.is-valid   { border-color: #12a05c; }
+.form-control.is-invalid { border-color: #e03434; }
+
+.input-group {
+  position: relative;
+}
+.input-group .form-control { padding-right: 44px; }
+.input-group .input-icon {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  font-size: 16px;
+  pointer-events: none;
+}
+.input-group .input-btn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #6b7280;
+  font-size: 15px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.form-hint {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 5px;
+}
+.form-hint.is-valid   { color: #12a05c; }
+.form-hint.is-invalid { color: #e03434; }
+
+/* ── Position Toggle ────────────────────────────────────────── */
+.position-toggle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.position-option {
+  position: relative;
+}
+.position-option input[type="radio"] { display: none; }
+
+.position-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  background: #f9fafb;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: #6b7280;
+  transition: all 200ms ease;
+}
+
+.position-label:hover { border-color: #3b6ff0; color: #3b6ff0; background: #ebf0fd; }
+
+.position-option input:checked + .position-label {
+  border-color: #3b6ff0;
+  background: #ebf0fd;
+  color: #3b6ff0;
+}
+.position-option input:disabled + .position-label {
+  opacity: .4;
+  cursor: not-allowed;
+}
+
+/* ── Buttons ────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 20px;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1.5px solid transparent;
+  transition: all 200ms ease;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.btn-primary {
+  background: #3b6ff0;
+  color: #fff;
+  border-color: #3b6ff0;
+}
+.btn-primary:hover { background: #2954cc; border-color: #2954cc; text-decoration: none; color: #fff; }
+.btn-primary:active { transform: scale(.98); }
+
+.btn-outline {
+  background: transparent;
+  color: #3b6ff0;
+  border-color: #3b6ff0;
+}
+.btn-outline:hover { background: #ebf0fd; text-decoration: none; }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-muted);
+  border-color: transparent;
+}
+.btn-ghost:hover { background: var(--surface2); color: var(--text); }
+
+.btn-lg   { padding: 13px 24px; font-size: 15px; }
+.btn-sm   { padding: 7px 14px;  font-size: 12px; border-radius: 7px; }
+.btn-full { width: 100%; }
+.btn:disabled { opacity: .55; cursor: not-allowed; }
+
+/* ── Registration Steps ─────────────────────────────────────── */
+.steps-bar {
+  display: flex;
+  padding: 20px 36px;
+  gap: 0;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  position: relative;
+}
+
+.step {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+
+.step::before {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  right: -50%;
+  height: 2px;
+  background: #e5e7eb;
+  z-index: 0;
+}
+.step:last-child::before { display: none; }
+
+.step.done::before   { background: #3b6ff0; }
+.step.active::before { background: linear-gradient(90deg, #3b6ff0, #e5e7eb); }
+
+.step-dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  transition: all 200ms ease;
+}
+.step.done   .step-dot { background: #3b6ff0; color: #fff; }
+.step.active .step-dot { background: #3b6ff0; color: #fff; box-shadow: 0 0 0 4px rgba(59,111,240,.2); }
+
+.step-text {
+  font-size: 11px;
+  font-weight: 600;
+  color: #9ca3af;
+  white-space: nowrap;
+}
+.step.active .step-text { color: #3b6ff0; }
+.step.done   .step-text { color: #374151; }
+
+/* ── Code verified banner ────────────────────────────────────── */
+.code-verified {
+  background: #ecfdf5;
+  border: 1px solid #bbf7d0;
+  border-radius: 9px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: #065f46;
+  margin-bottom: 18px;
+}
+.code-verified .icon { font-size: 18px; }
+
+/* ── Auth footer link ────────────────────────────────────────── */
+.auth-footer {
+  text-align: center;
+  padding: 0 36px 28px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* ── Slot Status ─────────────────────────────────────────────── */
+.slot-status {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 9px;
+  padding: 10px 14px;
+  margin-top: 6px;
+  font-size: 12px;
+  display: flex;
+  gap: 16px;
+}
+.slot-free   { color: #12a05c; font-weight: 600; }
+.slot-taken  { color: #e03434; font-weight: 600; }
+
+/* ── Loading spinner ─────────────────────────────────────────── */
+.spinner {
+  display: inline-block;
+  width: 16px; height: 16px;
+  border: 2px solid rgba(255,255,255,.4);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin .7s linear infinite;
+}
+.spinner-dark {
+  border-color: rgba(59,111,240,.3);
+  border-top-color: #3b6ff0;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
