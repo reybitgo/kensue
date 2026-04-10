@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= e($pageTitle ?? setting('site_name', APP_NAME)) ?></title>
   <meta name="robots" content="noindex,nofollow">
-  <link rel="icon" href="<?= APP_URL ?>/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="<?= APP_URL ?>/assets/img/favicon.png" type="image/png">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
