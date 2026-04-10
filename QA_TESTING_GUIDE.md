@@ -103,10 +103,10 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                                            | Expected Result                                                | Status |
 | --- | ----------------------------------------------- | -------------------------------------------------------------- | ------ |
-| 1   | Enter `admin` and any wrong password            | Error: Invalid credentials                                     | [ ]    |
-| 2   | Repeat 4 more times (5 total failures)          | Same error each time                                           | [ ]    |
-| 3   | On the 6th attempt with wrong password          | Error: **"Too many failed attempts. Please wait 15 minutes."** | [ ]    |
-| 4   | Try with the correct password immediately after | Still blocked                                                  | [ ]    |
+| 1   | Enter `admin` and any wrong password            | Error: Invalid credentials                                     | [P]    |
+| 2   | Repeat 4 more times (5 total failures)          | Same error each time                                           | [P]    |
+| 3   | On the 6th attempt with wrong password          | Error: **"Too many failed attempts. Please wait 15 minutes."** | [P]    |
+| 4   | Try with the correct password immediately after | Still blocked                                                  | [P]    |
 
 > **Note:** To reset this for further testing, close the browser and reopen, or wait 15 minutes.
 
