@@ -162,17 +162,17 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                                                  | Expected Result               | Status |
 | --- | ----------------------------------------------------- | ----------------------------- | ------ |
-| 1   | On the Packages page, fill in **Package Name**: `Pro` | —                             | [ ]    |
-| 2   | Fill **Entry Fee**: `20000`                           | —                             | [ ]    |
-| 3   | Fill **Pairing Bonus**: `4000`                        | —                             | [ ]    |
-| 4   | Fill **Daily Pair Cap**: `5`                          | —                             | [ ]    |
-| 5   | Fill **Direct Referral Bonus**: `1000`                | —                             | [ ]    |
-| 6   | Fill Level 1: `600`, Level 2: `400`, Level 3: `300`   | —                             | [ ]    |
-| 7   | Fill Levels 4–10 with any values (e.g. `200` each)    | —                             | [ ]    |
-| 8   | Set Status to **Active**                              | —                             | [ ]    |
-| 9   | Click **➕ Create Package**                           | —                             | [ ]    |
-| 10  | Check the flash message                               | Green: **"Package created."** | [ ]    |
-| 11  | Check the packages list                               | **"Pro"** package now appears | [ ]    |
+| 1   | On the Packages page, fill in **Package Name**: `Pro` | —                             | [P]    |
+| 2   | Fill **Entry Fee**: `20000`                           | —                             | [P]    |
+| 3   | Fill **Pairing Bonus**: `4000`                        | —                             | [P]    |
+| 4   | Fill **Daily Pair Cap**: `5`                          | —                             | [P]    |
+| 5   | Fill **Direct Referral Bonus**: `1000`                | —                             | [P]    |
+| 6   | Fill Level 1: `600`, Level 2: `400`, Level 3: `300`   | —                             | [P]    |
+| 7   | Fill Levels 4–10 with any values (e.g. `200` each)    | —                             | [P]    |
+| 8   | Set Status to **Active**                              | —                             | [P]    |
+| 9   | Click **➕ Create Package**                           | —                             | [P]    |
+| 10  | Check the flash message                               | Green: **"Package created."** | [P]    |
+| 11  | Check the packages list                               | **"Pro"** package now appears | [P]    |
 
 ---
 
