@@ -209,15 +209,15 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                                                            | Expected Result                                     | Status |
 | --- | --------------------------------------------------------------- | --------------------------------------------------- | ------ |
-| 1   | On the Codes page, select **Starter** from the Package dropdown | Price field auto-fills with `10500`                 | [ ]    |
-| 2   | Change Quantity to `5`                                          | —                                                   | [ ]    |
-| 3   | Confirm price is `10500` (or change it)                         | —                                                   | [ ]    |
-| 4   | Leave Expiry Date blank                                         | —                                                   | [ ]    |
-| 5   | Click **🎟️ Generate Codes** · Click OK on the confirmation      | —                                                   | [ ]    |
-| 6   | Check flash message                                             | Green: **"5 code(s) generated successfully."**      | [ ]    |
-| 7   | Check the codes table                                           | 5 new codes with format `XXXX-XXXX-XXXX` are listed | [ ]    |
-| 8   | Check all new codes have status                                 | **"Unused"** badge in green                         | [ ]    |
-| 9   | Note down 5 codes for member registration tests                 | Write them in the table at the top of this document | [ ]    |
+| 1   | On the Codes page, select **Starter** from the Package dropdown | Price field auto-fills with `10500`                 | [P]    |
+| 2   | Change Quantity to `5`                                          | —                                                   | [P]    |
+| 3   | Confirm price is `10500` (or change it)                         | —                                                   | [P]    |
+| 4   | Leave Expiry Date blank                                         | —                                                   | [P]    |
+| 5   | Click **🎟️ Generate Codes** · Click OK on the confirmation      | —                                                   | [P]    |
+| 6   | Check flash message                                             | Green: **"5 code(s) generated successfully."**      | [P]    |
+| 7   | Check the codes table                                           | 5 new codes with format `XXXX-XXXX-XXXX` are listed | [P]    |
+| 8   | Check all new codes have status                                 | **"Unused"** badge in green                         | [P]    |
+| 9   | Note down 5 codes for member registration tests                 | Write them in the table at the top of this document | [P]    |
 
 ---
 
