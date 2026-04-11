@@ -225,10 +225,10 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                                                  | Expected Result                                                           | Status |
 | --- | ----------------------------------------------------- | ------------------------------------------------------------------------- | ------ |
-| 1   | On the Codes page, click **📥 Export to CSV / Excel** | Browser downloads a file                                                  | [ ]    |
-| 2   | Check the downloaded file name                        | Format: `reg_codes_YYYY-MM-DD.csv`                                        | [ ]    |
-| 3   | Open the file in Excel or Notepad                     | Contains columns: Code, Package, Price, Status, Created, Expires, Used By | [ ]    |
-| 4   | Check the data                                        | All codes are present with correct details                                | [ ]    |
+| 1   | On the Codes page, click **📥 Export to CSV / Excel** | Browser downloads a file                                                  | [P]    |
+| 2   | Check the downloaded file name                        | Format: `reg_codes_YYYY-MM-DD.csv`                                        | [P]    |
+| 3   | Open the file in Excel or Notepad                     | Contains columns: Code, Package, Price, Status, Created, Expires, Used By | [P]    |
+| 4   | Check the data                                        | All codes are present with correct details                                | [P]    |
 
 ---
 
