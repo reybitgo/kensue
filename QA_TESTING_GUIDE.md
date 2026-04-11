@@ -196,10 +196,10 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                               | Expected Result                                   | Status |
 | --- | ---------------------------------- | ------------------------------------------------- | ------ |
-| 1   | Click **Reg Codes** in the sidebar | Page loads at `/?page=admin_codes`                | [ ]    |
-| 2   | Check the 4 stat cards at the top  | Total, Unused, Used/Sold, Revenue cards visible   | [ ]    |
-| 3   | Check the **"Unused"** count       | Shows at least **1** (the demo code from install) | [ ]    |
-| 4   | Check the codes table              | At least one code `DEMO-STAR-TKIT` is listed      | [ ]    |
+| 1   | Click **Reg Codes** in the sidebar | Page loads at `/?page=admin_codes`                | [P]    |
+| 2   | Check the 4 stat cards at the top  | Total, Unused, Used/Sold, Revenue cards visible   | [P]    |
+| 3   | Check the **"Unused"** count       | Shows at least **1** (the demo code from install) | [P]    |
+| 4   | Check the codes table              | At least one code `DEMO-STAR-TKIT` is listed      | [P]    |
 
 ---
 
