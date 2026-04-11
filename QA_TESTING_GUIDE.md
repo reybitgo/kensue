@@ -180,13 +180,13 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                                           | Expected Result                                        | Status |
 | --- | ---------------------------------------------- | ------------------------------------------------------ | ------ |
-| 1   | Click **Edit** next to the **Starter** package | URL changes to `/?page=admin_packages&edit=1`          | [ ]    |
-| 2   | Check the form title                           | Shows **"✏️ Edit Package"**                            | [ ]    |
-| 3   | Check all fields are pre-filled                | Name, fees, bonus, cap and all 10 levels are populated | [ ]    |
-| 4   | Change **Daily Pair Cap** to `4`               | —                                                      | [ ]    |
-| 5   | Click **💾 Update Package**                    | Flash message: **"Package updated."**                  | [ ]    |
-| 6   | Click Edit again on Starter                    | Daily Pair Cap now shows `4`                           | [ ]    |
-| 7   | Change it back to `3` and save                 | Restored to original                                   | [ ]    |
+| 1   | Click **Edit** next to the **Starter** package | URL changes to `/?page=admin_packages&edit=1`          | [P]    |
+| 2   | Check the form title                           | Shows **"✏️ Edit Package"**                            | [P]    |
+| 3   | Check all fields are pre-filled                | Name, fees, bonus, cap and all 10 levels are populated | [P]    |
+| 4   | Change **Daily Pair Cap** to `4`               | —                                                      | [P]    |
+| 5   | Click **💾 Update Package**                    | Flash message: **"Package updated."**                  | [P]    |
+| 6   | Click Edit again on Starter                    | Daily Pair Cap now shows `4`                           | [P]    |
+| 7   | Change it back to `3` and save                 | Restored to original                                   | [P]    |
 
 ---
 
