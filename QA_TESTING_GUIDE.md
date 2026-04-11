@@ -247,11 +247,11 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                                                                      | Expected Result                        | Status |
 | --- | ------------------------------------------------------------------------- | -------------------------------------- | ------ |
-| 1   | On the Codes page, select **"Unused"** from the Filter by Status dropdown | Page reloads                           | [ ]    |
-| 2   | Check results                                                             | Only unused codes are shown            | [ ]    |
-| 3   | Select **"All Statuses"** again                                           | All codes visible again                | [ ]    |
-| 4   | Select **Starter** from Filter by Package                                 | Only Starter package codes shown       | [ ]    |
-| 5   | Click **✕ Clear filter** link                                             | All filters cleared, all codes visible | [ ]    |
+| 1   | On the Codes page, select **"Unused"** from the Filter by Status dropdown | Page reloads                           | [P]    |
+| 2   | Check results                                                             | Only unused codes are shown            | [P]    |
+| 3   | Select **"All Statuses"** again                                           | All codes visible again                | [P]    |
+| 4   | Select **Starter** from Filter by Package                                 | Only Starter package codes shown       | [P]    |
+| 5   | Click **✕ Clear filter** link                                             | All filters cleared, all codes visible | [S]    |
 
 ---
 
