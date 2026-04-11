@@ -236,10 +236,10 @@ Keep this table filled in as you go. You will need these later.
 
 | #   | Step                                                    | Expected Result                             | Status |
 | --- | ------------------------------------------------------- | ------------------------------------------- | ------ |
-| 1   | On the Codes page, click **🖨️ Print Codes (PDF-ready)** | Browser print dialog opens                  | [ ]    |
-| 2   | Look at the print preview                               | Codes appear in a 3-column grid             | [ ]    |
-| 3   | Each code card shows                                    | Code, package name, price, expiry           | [ ]    |
-| 4   | Press Escape to cancel the print                        | Print dialog closes, page returns to normal | [ ]    |
+| 1   | On the Codes page, click **🖨️ Print Codes (PDF-ready)** | Browser print dialog opens                  | [P]    |
+| 2   | Look at the print preview                               | Codes appear in a 3-column grid             | [P]    |
+| 3   | Each code card shows                                    | Code, package name, price, expiry           | [P]    |
+| 4   | Press Escape to cancel the print                        | Print dialog closes, page returns to normal | [P]    |
 
 ---
 
